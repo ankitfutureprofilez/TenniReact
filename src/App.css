@@ -1,45 +1,8 @@
-
-
-#header{
-  background:black;
-  padding: 10px,0px;
-}
-
-
-#header img {
-  overflow-clip-margin: content-box;
-  overflow: clip;
-}
-
-#header  div {
-  display: block;
-}
-
-
-#header li {
-  display: list-item;
-  text-align: -webkit-match-parent;
-}
-
-#header .navbar {
-  justify-content: space-between;
-}
-
-#header .navbar-brand {
-  display: flex;
-  align-items: center;
-}
-
-#header .logo img {
-  height: 40px;
-  margin-right: 10px;
-}
-
-#header .madmer-menu {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-}
+#header {
+  background:rgb(126, 124, 124);
+  z-index: 1;
+  position: relative;
+} 
 
 #header .madmer-menu .nav-item    .nav-link {
   font-family: 'Oswald';
@@ -59,30 +22,10 @@
   cursor: pointer;
 }
 
-#header .btn-success {
-  background-color: #28a745;
-  border-color: #28a745;
-  color: #ffffff;
-}
-
-#header .btn-primary {
-  background-color: #007bff;
-  border-color: #007bff;
-  color: #ffffff;
-}
-
-#header .btn-danger {
-  background-color: #dc3545;
-  border-color: #dc3545;
-  color: #ffffff;
-}
-
-
-
 #footer {
   background-color: rgb(66, 65, 65);
   color: white;
-  padding: 10px 0;
+ padding-top: 3px ;
 }
 
 #footer .container {
@@ -109,6 +52,8 @@
   color: white;
   text-decoration: none;
 }
+
+
 
 #footer ul {
   list-style: none;
@@ -163,22 +108,26 @@
   font-family: 'Roboto';
   font-style: italic;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 19px;
   text-transform: capitalize;
   color: #7c7c7c;
 }
 
-#footer .down-footer Link {
-  font-family: 'Roboto';
-  font-style: italic;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 19px;
-  text-transform: capitalize;
-  color: #7c7c7c;
+#footer .down-footer a {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 19px;
+    text-transform: capitalize;
+    color: #7c7c7c;
 }
 
+
+#footer .down-footer a:hover {
+  color: white; /* Change text color on hover */
+}
 @media (max-width: 768px) {
   .col-md-4,
   .col-md-6 {
