@@ -6,9 +6,7 @@ import Tensiherosec from "./pages/Tensiherosec";
 import Tensikhaloapp from "./pages/Tensikahloapp";
 import Appfunctionality from "./pages/Appfunctionality";
 import Aboutennis from "./pages/Aboutennis";
-
 import Findnear from "./pages/Findnear";
-
 
 function App() {
   return (
@@ -16,8 +14,11 @@ function App() {
       <Router>
         <Header />
         <Routes>
-          <Route path="/" element={<><Tensiherosec/><Tensikhaloapp/> <Appfunctionality/>
-         <Aboutennis/>   <Findnear/> </>}></Route>
+          <Route path="/" 
+          element=
+          {<><Tensiherosec/><Tensikhaloapp/> <Appfunctionality/>
+         <Aboutennis/>   <Findnear/> </>}
+         ></Route>
          
         </Routes>
         <Footer />

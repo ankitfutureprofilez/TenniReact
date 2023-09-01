@@ -30,7 +30,7 @@ function Footer() {
                       </li>
                       <li>
                         <a href="https://stag.tenniskhelo.com/coming">
-                          Board of director{" "}
+                          Board of director
                         </a>
                       </li>
                     </ul>
@@ -116,7 +116,7 @@ function Footer() {
                     <ul>
                       <li>
                         <a href="https://stag.tenniskhelo.com/coming">
-                          JDTA Media{" "}
+                          JDTA Media
                         </a>
                       </li>
                       <li>
@@ -156,8 +156,8 @@ function Footer() {
                           <img
                             src="https://stag.tenniskhelo.com/assets/img/landing/call-icon.svg"
                             alt="icon"
-                          />{" "}
-                          +91 9983333334{" "}
+                          />
+                          +91 9983333334
                         </Link>
                       </li>
                       <li>
@@ -165,7 +165,7 @@ function Footer() {
                           <img
                             src="https://stag.tenniskhelo.com/assets/img/landing/mail-icon.svg"
                             alt="icon"
-                          />{" "}
+                          />
                           info@futureprofilez.com
                         </Link>
                       </li>
