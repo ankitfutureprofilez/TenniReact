@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function Footer() {
   return (
-    <section id="footer">
+    <section className="footer">
       <div className="container">
         <div className="row all-footer-tag">
           <div className="col-lg-7">
@@ -10,7 +10,7 @@ function Footer() {
               <div className="col-md-4">
                 <ul>
                   <li>
-                    <h3>Corporate </h3>
+                    <h3>Corporate</h3>
                     <ul>
                       <li>
                         <a href="https://stag.tenniskhelo.com/coming">About </a>
