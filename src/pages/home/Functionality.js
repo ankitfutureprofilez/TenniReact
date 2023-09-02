@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Functionality() {
   return ( 
     <section className="app-functionality-sec">

@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Other() {
   return ( 
     <section class="other-apps-sec">

@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Photo() {
   return (  
     <section className="photo-gallery-sec">
