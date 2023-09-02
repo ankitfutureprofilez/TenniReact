@@ -1,7 +1,5 @@
-import { Link } from "react-router-dom";
-
-function Aboutennis() {
-  return (
+function About() {
+  return (  
     <section className="about-tennis-sec">
 		<div className="container">
 			<div className="row">
@@ -24,7 +22,7 @@ function Aboutennis() {
 			</div>
 		</div>
 	</section>
-   );
+  );
 }
 
-export default Aboutennis;
+export default About;
