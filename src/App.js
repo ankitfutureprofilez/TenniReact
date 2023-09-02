@@ -7,6 +7,7 @@ import Tensikhaloapp from "./pages/Tensikahloapp";
 import Appfunctionality from "./pages/Appfunctionality";
 import Aboutennis from "./pages/Aboutennis";
 import Findnear from "./pages/Findnear";
+import Otherapps from "./pages/Otherapps";
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
           <Route path="/" 
           element=
           {<><Tensiherosec/><Tensikhaloapp/> <Appfunctionality/>
-         <Aboutennis/>   <Findnear/> </>}
+         <Aboutennis/>   <Findnear/>  </>}
          ></Route>
          
         </Routes>
