@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 
-function Playeranking() {
-  return (  
-<section clasName="player-ranking">
+function Ranking() {
+  return ( 
+    <section clasName="player-ranking">
 		<div clasName="container">
 			<div clasName="row align-items-center">
 				<div clasName="col-md-6">
@@ -113,8 +113,7 @@ function Playeranking() {
 			</div>
 		</div>
 	</section>
-
-  );
+   );
 }
 
-export default Playeranking;
+export default Ranking;

@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
-function Tensikhaloapp() {
-  return (
+function Khaloapp() {
+  return ( 
     <section className="tennis-khelo-app-sec">
       <div className="container">
         <div className="pro-heading">
@@ -68,7 +68,7 @@ function Tensikhaloapp() {
 			</div>
       </div>
     </section>
-  );
+   );
 }
 
-export default Tensikhaloapp;
+export default Khaloapp;

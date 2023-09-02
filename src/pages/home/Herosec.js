@@ -1,8 +1,7 @@
 import { Link } from "react-router-dom";
 
-function Tensiherosec() {
-  return (
-   
+function Herosec() {
+  return ( 
     <section className = "tennis-hero-sec">
       <div className="container">
         <div className="row align-items-center">
@@ -44,7 +43,7 @@ function Tensiherosec() {
         </div>
       </div>
     </section>
-  );
+   );
 }
 
-export default Tensiherosec;
+export default Herosec;

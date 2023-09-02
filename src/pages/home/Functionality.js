@@ -91,4 +91,4 @@ function Functionality() {
    );
 }
 
-export default Functionality.js;
+export default Functionality;
