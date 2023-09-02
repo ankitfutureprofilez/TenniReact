@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function Footer() {
   return (
-    <section id="footer">
+    <section className="footer">
       <div className="container">
         <div className="row all-footer-tag">
           <div className="col-lg-7">
@@ -10,7 +10,7 @@ function Footer() {
               <div className="col-md-4">
                 <ul>
                   <li>
-                    <h3>Corporate </h3>
+                    <h3>Corporate</h3>
                     <ul>
                       <li>
                         <a href="https://stag.tenniskhelo.com/coming">About </a>
@@ -30,7 +30,7 @@ function Footer() {
                       </li>
                       <li>
                         <a href="https://stag.tenniskhelo.com/coming">
-                          Board of director{" "}
+                          Board of director
                         </a>
                       </li>
                     </ul>
@@ -116,7 +116,7 @@ function Footer() {
                     <ul>
                       <li>
                         <a href="https://stag.tenniskhelo.com/coming">
-                          JDTA Media{" "}
+                          JDTA Media
                         </a>
                       </li>
                       <li>
@@ -156,8 +156,8 @@ function Footer() {
                           <img
                             src="https://stag.tenniskhelo.com/assets/img/landing/call-icon.svg"
                             alt="icon"
-                          />{" "}
-                          +91 9983333334{" "}
+                          />
+                          +91 9983333334
                         </Link>
                       </li>
                       <li>
@@ -165,18 +165,42 @@ function Footer() {
                           <img
                             src="https://stag.tenniskhelo.com/assets/img/landing/mail-icon.svg"
                             alt="icon"
-                          />{" "}
+                          />
                           info@futureprofilez.com
                         </Link>
                       </li>
                       <li>
-											<h3 className="our-socials-text mt-3">Our Socials</h3>
-											<ul className="socials-link">
-												<li><Link to="https://stag.tenniskhelo.com/coming"> <img src="https://stag.tenniskhelo.com/assets/img/landing/fb-1.svg" alt="icon"/></Link></li>
-												<li><Link to="https://stag.tenniskhelo.com/coming"> <img src="https://stag.tenniskhelo.com/assets/img/landing/fb-2.svg" alt="icon"/></Link></li>
-												<li><Link to="https://stag.tenniskhelo.com/coming"> <img src="https://stag.tenniskhelo.com/assets/img/landing/fb-3.svg" alt="icon"/></Link></li>
-											</ul>
-										</li>
+                        <h3 className="our-socials-text mt-3">Our Socials</h3>
+                        <ul className="socials-link">
+                          <li>
+                            <Link to="https://stag.tenniskhelo.com/coming">
+                              {" "}
+                              <img
+                                src="https://stag.tenniskhelo.com/assets/img/landing/fb-1.svg"
+                                alt="icon"
+                              />
+                            </Link>
+                          </li>
+                          <li>
+                            <Link to="https://stag.tenniskhelo.com/coming">
+                              {" "}
+                              <img
+                                src="https://stag.tenniskhelo.com/assets/img/landing/fb-2.svg"
+                                alt="icon"
+                              />
+                            </Link>
+                          </li>
+                          <li>
+                            <Link to="https://stag.tenniskhelo.com/coming">
+                              {" "}
+                              <img
+                                src="https://stag.tenniskhelo.com/assets/img/landing/fb-3.svg"
+                                alt="icon"
+                              />
+                            </Link>
+                          </li>
+                        </ul>
+                      </li>
                     </ul>
                   </li>
                 </ul>
@@ -185,9 +209,17 @@ function Footer() {
           </div>
         </div>
         <div class="down-footer">
-				<p>© Copyright - 2022 All Rights Reserved</p>
-				<p className="link"><Link to="https://stag.tenniskhelo.com/coming">Terms &amp; conditions </Link> : <Link to="https://stag.tenniskhelo.com/coming">Privacy Policy </Link></p>
-			</div>
+          <p>© Copyright - 2022 All Rights Reserved</p>
+          <p className="link">
+            <Link to="https://stag.tenniskhelo.com/coming">
+              Terms &amp; conditions{" "}
+            </Link>{" "}
+            :{" "}
+            <Link to="https://stag.tenniskhelo.com/coming">
+              Privacy Policy{" "}
+            </Link>
+          </p>
+        </div>
       </div>
     </section>
   );
