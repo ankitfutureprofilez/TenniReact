@@ -7,7 +7,7 @@ import Khaloapp from "./Khaloapp";
 import Latestcart from "./Latestcart";
 import Other from "./Other";
 import Photo from "./Photo";
-import Question from "./Question";
+import Faq from "./Faq";
 import Ranking from "./Ranking";
 import Tournament from "./Tournament";
 
@@ -21,9 +21,10 @@ export default function page() {
       <Tournament/>
       <Find />
       <Photo/>
+
       <Ranking/>
       <Latestcart/>
-      <Question/>
+      <Faq/>
       <Appdownload/>
       <Other/>
     </>

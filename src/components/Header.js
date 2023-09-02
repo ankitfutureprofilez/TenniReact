@@ -2,13 +2,11 @@ import { Link } from "react-router-dom";
 
 function Header() {
   return (
-    <section className="header">
+    <header className="header">
       <div className="container">
         <div className="row">
           <div className="col-md-12">
             <nav className="navbar navbar-expand-lg navbar-light ">
-              <div className="container-fluid">
-                <div className="d-flex justify-content-between align-items-start align-items-lg-center w-100">
                   <Link to="" className="logo">
                     <img
                       src="https://stag.tenniskhelo.com/assets/img/landing/logo.svg"
@@ -33,7 +31,7 @@ function Header() {
                     {/* ... Navigation Links ... */}
                     <ul className="navbar-nav ms-auto madmer-menu">
                       <li className="nav-item">
-                        <Link className="nav-link" aria-current="page" to="">
+                        <Link className="nav-link active" aria-current="page" to="">
                           Home
                         </Link>
                       </li>
@@ -67,21 +65,20 @@ function Header() {
                       </li>
                     </ul>
                   </div>
-                  <div className="d-flex">
-                    <button className="btn btn-success my-2 my-sm-0 mx-2">
+                  <div className="register-login">
+                    {/* <button className="btn btn-success my-2 my-sm-0 mx-2">
                       Join Us
                     </button>
                     <button className="btn btn-primary my-2 my-sm-0 mx-2">
                       Login
-                    </button>
+                    </button> */}
+                    <Link href="./">Register/Login</Link>
                   </div>
-                </div>
-              </div>
             </nav>
           </div>
         </div>
       </div>
-    </section>
+    </header>
   );
 }
 

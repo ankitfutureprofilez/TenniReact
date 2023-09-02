@@ -1,0 +1,445 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400;1,500&display=swap');
+body{padding:0;margin:0; font-family: 'Oswald', sans-serif; background-color: #080A0D;}
+ul{list-style:none}
+a{text-decoration:none;outline:none}
+body a:hover,body a:focus{color:initial;text-decoration:none}
+a:focus{outline:none;text-decoration:none}
+textarea:focus{outline:none}
+select:focus{outline:none;}
+input{outline:none!important}
+button,button:focus{outline:none}
+a img{border:none}
+img{border:0}
+p{padding:0;margin:0}
+h1,h2,h3,h4,ul,p{padding:0;margin:0}
+textarea{resize:none}
+input::-webkit-input-placeholder,textarea::-webkit-input-placeholder{color:#fff}
+input:-moz-placeholder,textarea:-moz-placeholder{color:#fff}
+input:-webkit-autofill{border:1px solid #e4e4e5;-webkit-text-fill-color:rgba(49,50,51,1);-webkit-box-shadow:0 0 0px 1000px #f5f5f6 inset;transition:background-color 5000s ease-in-out 0s;}
+input:-internal-autofill-selected{background-color:#fff!important;-webkit-box-shadow:0 0 0px 1000px #fff inset;}
+input:-webkit-autofill:hover,input:-webkit-autofill:focus{border:1px solid #e4e4e5;-webkit-text-fill-color:rgba(49,50,51,1);-webkit-box-shadow:0 0 0px 1000px #f5f5f6 inset;transition:background-color 5000s ease-in-out 0s;}
+input::-moz-placeholder{opacity:1;outline:none}
+textarea::-moz-placeholder{opacity:1;outline:none}
+.clr{clear:both;height:0}
+ul{padding:0;list-style:none}
+a{text-decoration:none;-moz-transition:all .2s;-webkit-transition:all .2s;transition:all .2s}
+a:hover{text-decoration:none;-moz-transition:all .2s;-webkit-transition:all .2s;transition:all .2s}
+header {  background: #200d4a00;  z-index: 1;  position: relative;}
+.navbar-toggler { padding: 8px; border-radius: 54px; }
+/* ----hero-slider-css---- */
+.madmer-menu a.nav-link { font-family: 'Oswald'; font-style: normal; font-weight: 600; font-size: 17px; line-height: 25px; text-transform: uppercase; color: #FFFFFF !important;padding: 0 10px !important; }
+.madmer-menu a.nav-link.active,.madmer-menu a.nav-link:hover { color: #008f70 !important; }
+nav.navbar.navbar-expand-lg.navbar-light { padding: 26px 0; }
+.register-login a { font-family: 'Oswald';border: 1px solid #008f70; font-style: normal; font-weight: 600; font-size: 17px; line-height: 27px; text-transform: uppercase; color: #FFFFFF; padding: 16px 40px; background: #008F70; }
+.register-login a:hover{background-color: rgba(255, 255, 255, 0); color: #008F70; border: 1px solid #008f70;}
+
+/* hero section */
+.tennis-hero-sec{background-image: url(https://stag.tenniskhelo.com/assets/img/landing/hero-bg.jpg); background-position: center; background-repeat: no-repeat;margin-top: -102px; background-size: cover; padding: 178px 0 16px;}
+.ultime-box h1 { font-family: 'Oswald'; font-style: normal; font-weight: 600; font-size: 44px; line-height: 65px; text-transform: uppercase; color: #FFFFFF; margin-bottom: 25px; }
+.ultime-box p { font-family: 'Oswald'; font-style: normal; font-weight: 400; font-size: 22px; line-height: 37px; text-transform: capitalize; color: #FFFFFF; }
+.app-future { margin-top: 50px; }
+.app-future a.down-app { background: #008F70; font-family: 'Oswald';border: 1px solid #008F70; font-style: normal; font-weight: 600; font-size: 18px; line-height: 27px; padding:16px 40px; border: 1px solid #008f70; text-transform: uppercase; color: #FFFFFF; margin-right: 40px;}
+.app-future a.down-app:hover{background: #036d5600; color: #008f70;}
+.app-future a.view-app{ font-family: 'Oswald'; font-style: normal; font-weight: 600; font-size: 18px; line-height: 27px; padding: 16px 40px; text-transform: uppercase; color: #008F70; border: 1px solid #008F70;  }
+.app-future a.view-app:hover{background-color: #008F70; color: #fff;}
+.hero-right-box img { width: 100%; }
+.read-whole a:hover{color: #04644f;}
+.pro-player { position: relative; width: 100%; } 
+.pro-player .image { display: block; width: 100%; height: auto; } 
+.pro-player .overlay { position: absolute; bottom: 0; z-index: 1; left: 0; right: 0; overflow: hidden; width: 100%; height: 50px; transition: .5s ease; } 
+.pro-player:hover .overlay { height: 100%; } 
+.pro-player .text { color: white; font-size: 20px; position: absolute; top: 30%; left: 50%; -webkit-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); transform: translate(-50%, -50%); text-align: center; } 
+.pro-player .overlay-1 { z-index: 1; position: absolute; bottom: 0; left: 0; right: 0; overflow: hidden; width: 100%; height: 0px; transition: .5s ease; } 
+.pro-player:hover .overlay-1 { height: 80%; } 
+.pro-player .overlay-1 .text { color: white; font-size: 16px; position: absolute; top: 50%; left: 50%; -webkit-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); transform: translate(-50%, -50%); text-align: center; width:100%; }
+.pro-player img.image { filter: grayscale(1); }
+.pro-player:hover img.image { filter: grayscale(0); }
+.overlay-1 .text { padding: 20px; }
+.pro-player .overlay-3 { position: absolute; background-color: #000000bd; bottom: 0; left: 0; right: 0; overflow: hidden; width: 100%; height: 0; transition: .5s ease; } 
+.pro-player:hover .overlay-3 { height: 100%; } 
+.download-app-btn { margin-top: 40px; }
+
+/* tennis khelo app */
+section.tennis-khelo-app-sec { padding: 70px 0; }
+.overlay .text { font-family: 'Oswald'; font-style: normal; font-weight: 600; font-size: 25px; width: 100%; line-height: 37px; text-align: center; text-transform: uppercase; color: #FFFFFF; }
+.pro-heading h2 {position: relative; font-family: 'Oswald'; font-style: normal; font-weight: 600; font-size: 30px; line-height: 44px; text-transform: uppercase; color: #FFFFFF; margin-bottom: 34px; }
+.pro-heading h2::after { content: "Tennis khelo app meant for "; text-transform: uppercase; position: absolute; left: 0; font-style: normal; font-weight: 600; top: -22px; z-index: -1; line-height: 89px; font-size: 51px; -webkit-text-stroke-width: 0.1px; -webkit-text-stroke-color: #008f701e; -webkit-text-fill-color: #080a0d; font-family: Impact, Charcoal, sans-serif; }
+.pro-player { position: relative; width: 100%; } 
+.pro-player .image { display: block; width: 100%; height: auto; } 
+.pro-player .overlay { position: absolute; bottom: 0; z-index: 1; left: 0; right: 0; overflow: hidden; width: 100%; height: 50px; transition: .5s ease; } 
+.pro-player:hover .overlay { height: 100%; } 
+.pro-player .text { color: white; font-size: 20px; position: absolute; top: 30%; left: 50%; -webkit-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); transform: translate(-50%, -50%); text-align: center; } 
+.pro-player .overlay-1 { z-index: 1; position: absolute; bottom: 0; left: 0; right: 0; overflow: hidden; width: 100%; height: 0px; transition: .5s ease; } 
+.pro-player:hover .overlay-1 { height: 80%; } 
+.pro-player .overlay-1 .text { color: white; font-size: 16px; position: absolute; top: 50%; left: 50%; -webkit-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); transform: translate(-50%, -50%); text-align: center; width:100%; }
+.pro-player img.image { filter: grayscale(1); }
+.pro-player:hover img.image { filter: grayscale(0); }
+.overlay-1 .text { padding: 20px; }
+.pro-player .overlay-3 { position: absolute; background-color: #000000bd; bottom: 0; left: 0; right: 0; overflow: hidden; width: 100%; height: 0; transition: .5s ease; } 
+.pro-player:hover .overlay-3 { height: 100%; } 
+section.tennis-khelo-app-sec { padding: 70px 0; }
+.overlay .text { font-family: 'Oswald'; font-style: normal; font-weight: 600; font-size: 25px; width: 100%; line-height: 37px; text-align: center; text-transform: uppercase; color: #FFFFFF; }
+.read-whole { margin-top: 30px; }
+.read-whole a { font-family: 'Oswald'; font-style: normal; font-weight: 600; font-size: 16px; line-height: 24px; text-transform: uppercase; color: #008F70; }
+
+
+
+
+
+
+
+
+
+
+/*Responsive*/
+@media (min-width:1399px){
+    .ultime-box h1 { font-size: 48px; line-height: 71px;  margin-bottom: 30px; }
+    .ultime-box p { font-size: 25px;}
+    .app-future a.down-app { padding: 15px 40px; }
+    .app-future a.view-app{  padding: 15px 40px; }
+    .register-login a { font-size: 18px; padding: 15px 40px; }
+    .madmer-menu a.nav-link {padding: 0 15px !important; }
+    .about-tennis-tex h2 {font-size: 40px; } 
+    .join-academy .join-khelo { padding: 15px 40px; }
+  .join-academy a.view-khelo { padding: 15px 40px; }
+  .join-academy { margin-top: 50px; }
+  
+  }
+  @media (max-width:1399px){
+    
+  
+  }
+  @media (max-width:1199px){
+    .register-login a {font-size: 16px; line-height: 26px; padding: 11px 22px;  }
+    .madmer-menu a.nav-link { font-size: 16px; padding: 0 8px !important; }
+    .ultime-box h1 {font-size: 36px; line-height: 54px; margin-bottom: 20px; }
+    .ultime-box p {font-size: 20px; line-height: 34px; color: #FFFFFF; }
+    .app-future a.down-app {font-size: 16px; line-height: 26px; padding: 12px 24px; margin-right: 30px; }
+    .app-future a.view-app {font-size: 16px; line-height: 26px; padding: 12px 24px; }
+    .overlay .text { font-size: 20px;  }
+    .pro-player .text { top: 20%; }
+    .my-league-img { max-width: 400px; }
+     .my-league-img img { width: -webkit-fill-available; }
+     .my-league-text { margin-left: 10px; }
+     .functi-tabs li.nav-item button { padding: 14px 0;  }
+     .download-khelo-app { padding: 40px 0; margin-top: -70px;  }
+     .download-khelo-app h2 { font-size: 30px; line-height: 42px; margin-bottom: 15px; }
+     .download-khelo-app p { font-size: 21px; line-height: 32px; max-width: 720px; }
+     .download-app-btn { margin-top: 30px; }
+     .about-tennis-tex h2 { font-size: 36px; line-height: 56px; margin-bottom: 10px; }
+     .about-tennis-tex p { font-size: 16px; line-height: 145%; }
+     .app-future { margin-top: 35px; }
+     .tournament-heading h2 { font-size: 26px; line-height: 110%;  }
+     .tournament-heading a { font-size: 16px; line-height: 26px; }
+     .slick-slide .latest-play { height: 300px; }
+     .latest-text h5 {  font-size: 16px; line-height: 21px; margin-bottom: 5px; }
+     .latest-text h3 { font-size: 28px; line-height: 38px; margin-bottom: 7px; }
+     .latest-text p {font-size: 18px; line-height: 29px;  }
+     .latest-text h4 { font-size: 26px; line-height: 32px; margin: 15px 0 20px;  }
+     .join-academy .join-khelo { font-size: 15px; line-height: 25px;  padding: 12px 25px; margin-right: 25px; }
+     .join-academy a.view-khelo {font-size: 15px; line-height: 25px; padding: 12px 25px; }
+     .join-academy { margin-top: 35px; }
+     .ranking-box h2 {font-size: 26px; margin-bottom: 12px; }
+     .ranking-box h3 {font-size: 20px; line-height: 29px; margin: 26px 0 25px; }
+     .player-head h3 { font-size: 20px; }
+     .player-head select { padding: 8px 26px 8px 8px; }
+     .player-head { padding: 22px 25px; }
+     .top-player-box .profile { margin-right: 10px; }
+     .view-all-box { padding: 15px 0; }
+     section.find-nearby-sec { padding: 100px 0; }
+     .nearbybox h2 { font-size: 34px; line-height: 53px; }
+     .photo-gallery-sec h2 { font-size: 26px;  margin-bottom: 12px; }
+     .latest-blog-view h2 {font-size: 26px; margin-bottom: 12px; }
+     .coming-text { padding: 20px 15px 25px 15px; }
+     .coming-text h4 {margin-bottom: 10px; }
+     .coming-text h3 {font-size: 18px; line-height: 28px; margin-bottom: 12px; }
+     .read-whole { margin-top: 18px; }
+     section.faq-sec { padding: 50px 0;  }
+     .faq-box button.accordion-button.collapsed, .faq-box button.accordion-button { padding: 16px; }
+     section.faq-sec h4 {margin-bottom: 30px; }
+     .ios-app-box h2 {font-size: 34px; line-height: 54px; margin-bottom: 12px; }
+     section.other-apps-sec { padding: 80px 0 30px; }
+     .all-footer-tag li a {font-size: 14px; }
+     .down-footer p, .down-footer a { font-size: 15px;}
+     .down-footer {padding: 20px; }
+     .functi-tabs { max-height: 330px; }
+     .download-khelo-app { margin-top: 0;}
+  
+  }
+  
+  
+  
+  @media (max-width:991px){
+    a.logo img { width: 150px; }
+    header .navbar-toggler { padding: 7px; border-radius: 54px; background: #fff; }
+    header .navbar-collapse{ position: absolute; top: 77px; background: #000000c7; width: 300px; right: 22px; padding: 20px; box-shadow: 0 0 10px 1px #353535; border-radius: 5px; }
+    header li.nav-item { padding: 6px 0; border-bottom: 1px solid; }
+    header .register-login { margin-top: 7px; }
+    header .register-login a { font-size: 14px; line-height: 26px; padding: 8px 84px; }
+    .ultime-box h1 { font-size: 24px; line-height: 40px; margin-bottom: 10px; }
+    .tennis-hero-sec { margin-top: -100px; padding: 125px 0 20px; }
+    .ultime-box p { font-size: 17px; line-height: 30px; color: #FFFFFF; }
+    .app-future a.down-app { font-size: 14px; line-height: 26px; padding: 10px 15px; margin-right: 15px; }
+    .app-future a.view-app { font-size: 14px; line-height: 24px; padding: 10px 15px; }
+    .overlay-1 .text p { font-size: 13px; font-weight: 400; }
+    .pro-player .text { top: 13%; }
+    .read-whole { margin-top: 3px; }
+    section.tennis-khelo-app-sec { padding: 35px 0; }
+    section.app-functionality-sec { padding: 35px 0; }
+    .app-functi-text h2 {font-size: 26px; line-height: 110%; margin-bottom: 16px; }
+    .app-functi-text { text-align: center; margin-bottom: 15px; }
+    .my-league-img { max-width: 320px; }
+    .functi-tabs .nav { width: 22%;  }
+    .functi-tabs li.nav-item button { padding: 10px 0; }
+    .my-league-text { padding-top: 60px; }
+    .my-league-text p { font-size: 14px; }
+    .my-league-text h3 { font-size: 20px; line-height: 30px; margin-bottom: 10px; }
+    .my-league-text .app-future { margin-top: 30px; }
+    .download-khelo-app { padding: 30px; margin-top: -31px; }
+    .download-khelo-app h2 { font-size: 27px; line-height: 30px; margin-bottom: 10px; }
+    .download-khelo-app p { font-size: 18px; line-height: 30px; }
+    .download-app-btn { margin-top: 25px; }
+    .download-app-btn img { width: 140px; }
+    section.about-tennis-sec { padding: 35px 0; }
+    .about-tennis-tex h2 { font-size: 28px; line-height: 50px; margin-bottom: 6px; }
+    .about-tennis-tex p { font-size: 14px; line-height: 145%; font-weight: 400; }
+    .about-tennis-sec .row { align-items: center; }
+    section.tournament-sec { padding: 35px 0; }
+    .tournament-heading h2 { font-size: 24px; width: auto !important;}
+    h2::after { display: none;}
+    .tournament-heading a { font-size: 15px; }
+    .slick-slide .latest-play { height: 222px; }
+    .latest-text h5 { font-size: 14px; line-height: 20px; margin-bottom: 3px; }
+    .latest-text { padding-left: 30px; }
+    .latest-text h3 { font-size: 24px; line-height: 34px; margin-bottom: 4px; }
+    .latest-text p { font-size: 15px; line-height: 25px; }
+    .latest-text h4 { font-size: 22px; line-height: 14px; margin: 12px 0 15px; }
+    .join-academy .join-khelo { font-size: 14px; line-height: 25px; padding: 8px 14px; margin-right: 15px; }
+    .join-academy a.view-khelo { font-size: 14px; line-height: 25px; padding: 8px 15px; }
+    .join-academy { margin-top: 26px; }
+    section.player-ranking { padding: 35px 0; }
+    .player-head h3 { font-size: 18px; }
+    .player-head select { padding: 6px 8px 6px 8px; font-size: 13px; }
+    .player-head { padding: 15px 20px; }
+    .top-player-box li { padding: 8px 15px 8px 30px; }
+    .view-all-box { padding: 10px 0; }
+    .view-all-box a {font-size: 15px; line-height: 25px;}
+    section.find-nearby-sec { padding: 70px 0; }
+    .nearbybox h2 { font-size: 28px; line-height: 48px; }
+    .nearbybox h3 { font-size: 20px; line-height: 33px; margin: 20px 0; }
+    section.photo-gallery-sec {padding: 35px 0; }
+    .photo-gallery-sec h2 { font-size: 24px; margin-bottom: 8px; }
+    .photo-gallery-sec  p { margin-bottom: 25px; }
+    section.latest-blog-sec { padding: 30px 0 10px; }
+    .latest-blog-view h2 { font-size: 24px; margin-bottom: 10px; }
+    .latest-blog-view {  margin-bottom: 25px; }
+    .coming-text { padding: 15px 10px 20px 10px; }
+    .coming-text h3 { font-size: 17px; line-height: 27px; margin-bottom: 8px; }
+    .coming-text p {font-size: 14px; }
+    .read-whole a {font-size: 14px; line-height: 20px; }
+    section.faq-sec { padding: 35px 0; }
+    section.faq-sec h2 {font-size: 24px; margin-bottom: 10px; }
+    .faq-box button.accordion-button.collapsed, .faq-box button.accordion-button { padding: 12px; font-size: 16px; }
+    .accordion-body p { font-size: 15px; }
+    .ios-app-box { padding: 40px 0; }
+    section.unlock-tennis-sec { padding: 132px 0 50px;  margin-top: 34px; }
+    .madmer-phone-img { position: absolute; top: -132px; width: 330px; }
+    .madmer-phone-img img { width: 100%; }
+    section.other-apps-sec { padding: 48px 0 15px; }
+    .all-footer-tag .col-lg-7 { margin-bottom: 20px; }
+    .all-footer-tag h3 {  margin-bottom: 10px; }
+    .down-footer { padding: 18px; }
+    .functi-tabs .tab-content { width: 74%; }
+    .functi-tabs .nav { width: 26%; }
+    .functi-tabs li.nav-item button { font-size: 15px;  }
+    .functi-tabs {max-height: 408px; }
+    .functi-tabs { max-height: 296px; }
+    .download-khelo-app { margin-top: 0;}
+  
+    /* -----coming-soon------ */
+    .coming-box { max-width: 300px; }
+    .coming-box h1 {font-size: 50px;  margin-top: 35px; }
+    
+  /* ----FAQ-------- */
+  .faq-text-sec ul.nav button { padding: 8px 5px; font-size: 16px; font-weight: 500; }
+  .faq-text-sec button.accordion-button.collapsed h3,.faq-text-sec button.accordion-button h3 { font-size: 16px !important; font-weight: 500; }
+  .faq-madmer { margin-bottom: 35px;}
+  section.faq-hero-sec { padding: 170px 0; margin-top: -100px; }
+  .structure-gstr .tab-content {  margin: 0 auto 70px auto; }
+  .summrclub .call-gstr { height: 40px; width: 40px; margin-right: 8px;}
+  .summrclub h4 { font-size: 16px; font-weight: 300; }
+  section.contact-text-sec .faq-madmer { margin-bottom: 15px; }
+  section.contact-text-sec .faq-madmer h2 { font-size: 22px; }
+  .contact-form-box { padding: 30px;}
+  }
+  
+  
+  
+  @media (max-width:767px){
+    .tennis-hero-sec .row.align-items-center { flex-flow: column-reverse; }
+    .hero-right-box { max-width: 360px; margin-left: auto; margin-right: auto; margin-bottom: 20px; }
+    .pro-player { max-width: 360px; margin-left: auto; margin-right: auto; margin-bottom: 20px; }
+    .overlay-1 .text p { font-size: 16px; font-weight: 400; }
+    .pro-player .text { top: 30%; }
+    .read-whole { margin-top: 15px; }
+    section.tennis-khelo-app-sec { padding: 35px 0 20px; }
+    section.app-functionality-sec { padding: 20px 0; }
+    .functi-tabs {flex-direction: column; }
+    .functi-tabs .nav {width: 100%; flex-direction: initial; border-bottom: 2px solid; padding-top: 10px; justify-content: space-between;}
+    .functi-tabs li.nav-item button.active, .functi-tabs li.nav-item button:hover {  border-radius: 0px; color: #14AE8D; border-bottom: 2px solid #14ae8d; border-right: none; }
+    .functi-tabs li.nav-item button { border-right: none; }
+    .functi-tabs .tab-content { width: 100%; }
+    .my-league-text { padding-top: 35px; }
+    section.about-tennis-sec { padding: 20px 0; }
+    .about-tennis-sec .row { flex-direction: column-reverse; }
+    .about-tennis-img { max-width: 360px; margin-right: auto; margin-left: auto; margin-bottom: 20px; }
+    .latest-text { padding-left: 10px; }
+    .latest-text h5 { font-size: 11px; line-height: 16px; margin-bottom: 2px; }
+    .latest-text h3 { font-size: 16px; line-height: 25px; margin-bottom: 3px; }
+    .latest-text p { font-size: 12px; line-height: 21px; }
+    .latest-text h4 { font-size: 16px; line-height: 13px; margin: 8px 0 10px; }
+    .join-academy .join-khelo { font-size: 13px; line-height: 25px; padding: 6px 10px; margin-right: 11px; }
+    .join-academy { margin-top: 16px; }
+    .join-academy a.view-khelo { font-size: 13px; line-height: 25px; padding: 6px 10px; }
+    .slick-slide .latest-play { height: 150px; }
+    section.player-ranking { padding: 20px 0; }
+    section.tournament-sec { padding: 25px 0; }
+    .ranking-box h3 { margin: 8px 0 15px; }
+    .app-future { margin-top: 26px; }
+    .ranking-box { margin-bottom: 30px; }
+    section.find-nearby-sec { padding: 40px 0; }
+    .nearbybox h2 { font-size: 24px; line-height: 34px; }
+    .nearbybox p { font-size: 15px; }
+    .nearbybox h3 { font-size: 18px; line-height: 33px; margin: 10px 0; }
+    section.photo-gallery-sec { padding: 20px 0; }
+    section.latest-blog-sec { padding: 20px 0 10px; }
+    .latest-blog-view p { max-width: 400px; }
+    .coming-citi { margin-bottom: 20px; }
+    section.faq-sec { padding: 20px 0; }
+    .ios-app-box { padding: 200px 0 30px; text-align: center; }
+    .madmer-phone-img { position: absolute; top: -260px; width: 330px; left: 0; right: 0; margin: auto; }
+    section.unlock-tennis-sec { padding: 260px 0 0px; margin-top: 34px; }
+    section.other-apps-sec { padding: 20px 0 20px; }
+    footer.footer { padding: 30px 0 0; }
+    .all-footer-tag h3::after {left: 0; height: 3px; bottom: -5px; }
+    nav.navbar.navbar-expand-lg.navbar-light { padding: 20px 0; }
+    .functi-tabs { max-height: 325px; }
+  /* ------FAQ------- */
+    section.faq-hero-sec h1 { font-family: 'Oswald'; font-style: normal; font-weight: 600; font-size: 36px; line-height: 46px; text-transform: uppercase; color: #FFFFFF; margin-bottom: 10px; }
+    section.faq-hero-sec p { font-size: 20px; line-height: 28px;  }
+    section.faq-hero-sec { padding: 140px 0 120PX; margin-top: -86px; }
+    .faq-madmer { margin-bottom: 15px; }
+    .faq-text-sec ul.nav button { padding: 8px 0px; font-size: 12px; }
+    .faq-text-sec button.accordion-button { padding: 12px 10px; }
+  
+    /* ------------contautus----------- */
+    section.contact-text-sec { padding: 40px 0; }
+    .summrclub .call-gstr { height: 40px; width: 40px; margin-right: 8px;}
+    .summrclub h4 { font-size: 16px; font-weight: 300; }
+    section.contact-text-sec { padding: 30px 0; }
+    .summrclub { margin-bottom: 10px; }
+    .contact-form-sec { margin-top: 40px; margin-bottom: 130px; }
+    .contact-form-box .submit-btn a { font-size: 18px; padding: 12px 50px; }
+  
+  }
+  
+  
+  @media (max-width:575px){
+    .tennis-hero-sec { margin-top: -88px; padding: 110px 0 20px; }
+    a.logo img { width: 130px; }
+    .navbar-light .navbar-toggler-icon { width: 25px; height: 25px; }
+    .ultime-box h1 { font-size: 22px; line-height: 32px; margin-bottom: 10px; }
+    .my-league-img { max-width: 225px; }
+    .my-league-text { padding-top: 5px; }
+    .my-league-text p { font-size: 14px; }
+    .app-future a.view-app { padding: 7px 12px; }
+    .my-league-text h3 { font-size: 18px; line-height: 30px; margin-bottom: 4px; }
+    .my-league-text .app-future { margin-top: 13px; }
+    .download-khelo-app { padding: 22px; margin-top: -31px; }
+    .download-khelo-app h2 { font-size: 22px;margin-bottom: 5px; }
+    .download-khelo-app p { font-size: 17px; line-height: 25px; }
+    .download-app-btn img { width: 120px; }
+    .download-app-btn { margin-top: 16px; }
+    .about-tennis-tex h2 { font-size: 24px; line-height: 34px;  }
+    .tournament-heading h2 { font-size: 22px; }
+    .tournament-box { margin-top: 20px; }
+    .latest-img img.mobile-tennis { display: block; }
+  .latest-img img.pc-tennis { display: none; }
+  .latest-text { width: 100%;padding: 20px; }
+  .latest-img { width: 100%; }
+  .latest-play { flex-direction: column-reverse; }
+  .slick-slide .latest-play { height: 310px; }
+  .latest-text h5 { font-size: 14px; line-height: 20px; margin-bottom: 6px; }
+  .latest-text h3 { font-size: 18px;  }
+  .latest-text p { font-size: 13px; }
+  .latest-text h4 { margin: 13px 0 15px; }
+  .ranking-box h2 { font-size: 22px;  }
+  .ios-app-box h2 { font-size: 28px; line-height: 35px; margin-bottom: 10px; }
+  .madmer-phone-img {top: -268px;  }
+  .down-footer p, .down-footer a { font-size: 13px; }
+  .down-footer { padding: 12px; }
+  .app-future a.down-app { font-size: 13px; line-height: 26px; padding: 8px 12px; margin-right: 15px; }
+  .coming-box { max-width: 166px; }
+  .coming-box h1 { font-size: 28px; margin-top: 20px; line-height: 38px; }
+  .coming-soon-sec { padding: 140px 0 80px; }
+  .pro-heading h2 { font-size: 22px; line-height: 32px;  margin-bottom: 20px; }
+  .functi-tabs { max-height: 343px; }
+  .functi-tabs li.nav-item button { font-size: 13px; }
+  
+  /* --------FAQ------- */
+  section.faq-hero-sec { padding: 120px 0 100PX;}
+  section.faq-hero-sec h1 { font-size: 26px; line-height: 36px;}
+  section.faq-hero-sec p { font-size: 16px; line-height: 25px; }
+  section.faq-hero-sec p br{ display: none;}
+  .faq-text-sec ul.nav { flex-direction: column; }
+  .faq-text-sec ul.nav button.active { border-right: 3px solid #14AE8D; margin-bottom: 0px; border-bottom: none;  text-align: left; border-radius: 0; width: 100%; }
+  .faq-text-sec ul.nav button { padding: 8px 0px; font-size: 17px; }
+  .faq-text-sec ul.nav { border-bottom: 0; border-right: 1px solid #232323; }
+  .faq-text-sec button.accordion-button.collapsed h3, .faq-text-sec button.accordion-button h3 { font-size: 15px !important; font-weight: 400; }
+  .structure-gstr .tab-content { margin: 0 auto 40px auto; }
+    
+  }
+  
+  @media (max-width:480px){
+    .hero-right-box { max-width: 260px; }
+    .pro-player .text { top: 24%; }
+    header .navbar-collapse { width: 290px; right: 0; }
+    section.tennis-khelo-app-sec { padding: 35px 0 0px; }
+    .app-functi-text h2 { font-size: 22px; line-height: 110%; margin-bottom: 12px; }
+    .app-functi-text p { color: #bcbcbc; }
+    .functi-tabs li.nav-item button {font-weight: 500; font-size: 12px; line-height: 20px; }
+    .functi-tabs .tab-content .tab-pane.active.show { flex-direction: column-reverse; }
+    .my-league-img { width: 100%; margin: auto;     margin-top: 15px;}
+    .download-khelo-app { padding: 20px; margin-top: -40px; }
+    h3.our-socials-text { margin-top: 10px; }
+    .functi-tabs li.nav-item button img { width: 18px; margin-right: 5px; margin-top: -4px; }
+    .functi-tabs li.nav-item button { font-size: 10px; }
+    .latest-blog-view { flex-direction: column; }
+    .functi-tabs { max-height: 420px; }
+    .contact-form-box { padding: 20px; }
+    .contact-form-box textarea { height: 120px; }
+    .contact-form-box h2 { font-size: 20px; margin-bottom: 12px; }
+    section.contact-text-sec { padding: 10px 0; }
+    .contact-form-box input { height: 40px;}
+    .contact-form-box .submit-btn a { font-size: 16px; padding: 8px 35px; }
+  
+    
+  }
+  @media (max-width:360px){
+    .functi-tabs li.nav-item button {font-weight: 500; font-size: 11px; line-height: 20px; }
+    .tournament-heading { flex-direction: column; }
+    .latest-text .join-academy { flex-direction: column; display: flex; }
+    .latest-text .join-academy a.join-khelo { margin-bottom: 10px;margin-right: 0; }
+    .latest-blog-view { display: flex; flex-direction: column; align-items: baseline; }
+    .faq-box button.accordion-button.collapsed, .faq-box button.accordion-button { padding: 10px; font-size: 14px; }
+    .madmer-phone-img {  top: -230px; width: 300px; }
+    section.unlock-tennis-sec { padding: 230px 0 0px; margin-top: 20px; }
+    .functi-tabs li.nav-item { width: 100%; }
+    .functi-tabs { max-height: 556px; }
+  
+    
+  }
+
+
+
