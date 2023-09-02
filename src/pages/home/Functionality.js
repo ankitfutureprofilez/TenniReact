@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 
 function Functionality() {
   return ( 
+		//app-functionality-sec
     <section className="app-functionality-sec">
 		<div className="container">
 			<div className="app-functi-text">

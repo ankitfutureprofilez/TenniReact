@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 
 function Find() {
   return ( 
+		//find-nearby-sec
     <section className="find-nearby-sec">
 		<div className="container">
 			<div className="nearbybox">

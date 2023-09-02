@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 
 function Khaloapp() {
   return ( 
+    //Tennsi Kahlo App 
     <section className="tennis-khelo-app-sec">
       <div className="container">
         <div className="pro-heading">
