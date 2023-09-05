@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-function Khaloapp() {
+function Kheloapp() {
   return ( 
     //Tennsi Kahlo App 
     <section className="tennis-khelo-app-sec">
@@ -72,4 +72,4 @@ function Khaloapp() {
    );
 }
 
-export default Khaloapp;
+export default Kheloapp;

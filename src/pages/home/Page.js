@@ -3,7 +3,7 @@ import Appdownload from "./Appdownload";
 import Find from "./Find";
 import Functionality from "./Functionality";
 import Herosec from "./Herosec";
-import Khaloapp from "./Khaloapp";
+import Kheloapp from "./Kheloapp";
 import Latestcart from "./Latestcart";
 import Other from "./Other";
 import Photo from "./Photo";
@@ -15,7 +15,7 @@ export default function page() {
   return (
     <>
     <Herosec/>
-    <Khaloapp/>
+    <Kheloapp/>
       <Functionality />
       <About />
       <Tournament/>

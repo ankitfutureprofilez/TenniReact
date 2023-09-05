@@ -20,7 +20,7 @@ function Tournament() {
           <h2>Latest Tournament </h2>
           <Link to="https://stag.tenniskhelo.com/coming">View All Tournaments</Link>
         </div>
-        <div>
+        <div className="tournament-box">
         <Slider  {...settings}>
           <div>
 
