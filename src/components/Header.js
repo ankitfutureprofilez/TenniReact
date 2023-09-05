@@ -64,8 +64,7 @@ function Header() {
                         </Link>
                       </li>
                     </ul>
-                  </div>
-                  <div className="register-login">
+                    <div className="register-login">
                     {/* <button className="btn btn-success my-2 my-sm-0 mx-2">
                       Join Us
                     </button>
@@ -74,6 +73,8 @@ function Header() {
                     </button> */}
                     <Link href="./">Register/Login</Link>
                   </div>
+                  </div>
+                  
             </nav>
           </div>
         </div>

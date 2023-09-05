@@ -1,16 +1,39 @@
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import Slider from "react-slick";
 import React from "react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-function Photo() {
+function GallerySlider() {
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 500,
     slidesToShow: 6,
     slidesToScroll: 1,
+    arrows: false,
+		autoplay: true,
+		autoplaySpeed: 2000,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: { 
+          slidesToShow: 4,
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: { 
+          slidesToShow: 3,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: { 
+          slidesToShow: 1,
+        },
+      },
+    ],
   };
   return (
     <section className="photo-gallery-sec">
@@ -102,4 +125,4 @@ function Photo() {
   );
 }
 
-export default Photo;
+export default GallerySlider;

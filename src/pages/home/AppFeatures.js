@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-function Functionality() {
+function AppFeatures() {
   return ( 
 		//app-functionality-sec
     <section className="app-functionality-sec">
@@ -92,4 +92,4 @@ function Functionality() {
    );
 }
 
-export default Functionality;
+export default AppFeatures;

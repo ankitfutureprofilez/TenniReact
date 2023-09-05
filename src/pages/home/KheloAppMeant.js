@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-function Kheloapp() {
+function KheloAppMeant() {
   return ( 
     //Tennsi Kahlo App 
     <section className="tennis-khelo-app-sec">
@@ -55,8 +55,7 @@ function Kheloapp() {
 						</div>
 						<div className="overlay-1">
 							<div className="text">
-								<p>
-									Attention coaches and tennis academies! Streamline your training programs with our comprehensive app. From registrations and scheduling to progress tracking and performance analysis, take your academy's efficiency and effectiveness to new heights.
+								<p>Attention coaches and tennis academies! Streamline your training programs with our comprehensive app. From registrations and scheduling to progress tracking and performance analysis, take your academy's efficiency and effectiveness to new heights.
 								</p>
 								<div className="read-whole">
 									<Link to="https://stag.tenniskhelo.com/coming">Learn More </Link>
@@ -72,4 +71,4 @@ function Kheloapp() {
    );
 }
 
-export default Kheloapp;
+export default KheloAppMeant;
