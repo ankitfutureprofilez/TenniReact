@@ -4,6 +4,8 @@ import './Style.css'
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Page from "./pages/home/Page";
+import Player from "./player/Player"
+
 
 function App() {
   return (
@@ -12,7 +14,8 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Page/>} ></Route>
-        </Routes>
+          {/* <Route path="/Player" element={<Player/>} ></Route> */}
+        </Routes> 
         <Footer />
       </Router>
     </>

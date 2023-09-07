@@ -11,7 +11,27 @@ function Tournament() {
       infinite: true,
       centerPadding: "60px",
       slidesToShow: 1,
-      speed: 500
+      speed: 500,
+	  responsive: [
+		{
+		  breakpoint: 1024,
+		  settings: {
+			centerPadding: "30px",
+		  },
+		},
+		{
+		  breakpoint: 768,
+		  settings: {
+			centerPadding: "20px",
+		  },
+		},
+		{
+		  breakpoint: 480,
+		  settings: {
+			centerPadding: "5px",
+		  },
+		},
+	  ],
   };
   return (
     <section className="tournament-sec">

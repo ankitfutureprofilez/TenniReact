@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 body{padding:0;margin:0; font-family: 'Oswald', sans-serif; background-color: #080A0D;}
 ul{list-style:none}
 a{text-decoration:none;outline:none}
@@ -220,7 +221,8 @@ section.unlock-tennis-sec { padding: 200px 0 50px; position: relative; margin-to
 .ios-app-box::after { content: " "; position: absolute; background-image: url(https://stag.tenniskhelo.com/assets/img/landing/unlock-bg.png); height: 100%; width: 100%; right: 0; top: 0; background-size: contain; background-repeat: no-repeat; }
 section.other-apps-sec { padding: 100px 0 70px; }
 .patner-apps-box li { padding: 0 26px; }
-.patner-apps-box li img{ max-width: 124px; }
+/* .patner-apps-box li img { max-width: 124px; } */
+.other-apps-sec  .slick-slide img{margin: auto;}
 /* footer */
 
 .footer { padding: 60px 0 0; background: #000; }
@@ -228,12 +230,29 @@ ul.all-footer-tag { display: flex; justify-content: space-between; }
 .down-footer { display: flex; align-items: center; justify-content: space-between; padding: 25px; border-top: 1px solid; margin-top: 20px; }
 .all-footer-tag h3 {position: relative; font-family: 'Oswald'; font-style: normal; font-weight: 600; font-size: 18px; line-height: 27px; text-transform: capitalize; color: #FFFFFF; margin-bottom: 24px; }
 .all-footer-tag li a { font-family: 'Roboto'; font-style: normal; font-weight: 400; font-size: 16px; line-height: 180%; color: #c7c7c7; }
+.all-footer-tag li a img{margin-right: 5px;}
 .down-footer p,.down-footer a { font-family: 'Roboto'; font-style: italic; font-weight: 500; font-size: 16px; line-height: 19px; text-transform: capitalize; color: #7c7c7c; }
 .about-tennis-img img { width: 100%; }
 ul.socials-link { display: flex; } ul.socials-link li { margin-right: 10px; }
 h3.our-socials-text { margin-top: 25px; }
 .all-footer-tag h3::after { content: " "; position: absolute; width: 47px; left: 0; height: 5px; background-image: url(https://stag.tenniskhelo.com/assets/img/landing/border-b.png); bottom: -10px; }
 .all-footer-tag li a:hover,.down-footer a:hover{color: #ffffff;}
+
+/* Player page */
+.player-top{background:url('../public/image/player-top-banner.jpg');background-repeat: no-repeat;margin-top: -102px; background-size: cover; padding: 201px 0 149px;border-bottom: 7px solid #4DB19B;}
+.player-top h2{color: #FFF; font-family: Poppins; font-size: 28px; font-style: normal; font-weight: 300; line-height: 21px; text-transform: uppercase; margin: 0 0 18px;}
+.player-top h1{color: #FFF; font-family: Oswald; font-size: 55px; font-style: normal; font-weight: 700; text-transform: uppercase; line-height: 53px; margin: 0 0 18px;}
+.player-top p{color: #FFF; font-family: Poppins; font-size: 18px; font-style: normal; font-weight: 400; line-height: normal;}
+.player-app-dec{max-width: 675px;}
+
+.app-feature-player{border-top: 7px solid #08564F;}
+.app-feature-player .spreater{border-top: 7px solid #083633;border-bottom: 7px solid #091A1B;}
+
+
+
+
+
+
 
 /*Responsive*/
 @media (min-width:1399px){
@@ -578,10 +597,8 @@ h3.our-socials-text { margin-top: 25px; }
     .faq-box button.accordion-button.collapsed, .faq-box button.accordion-button { padding: 10px; font-size: 14px; }
     .madmer-phone-img {  top: -230px; width: 300px; }
     section.unlock-tennis-sec { padding: 230px 0 0px; margin-top: 20px; }
-    .functi-tabs li.nav-item { width: 100%; }
+    /* .functi-tabs li.nav-item { width: 100%; } */
     .functi-tabs { max-height: 556px; }
-  
-    
   }
 
 

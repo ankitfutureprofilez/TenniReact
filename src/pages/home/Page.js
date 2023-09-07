@@ -25,7 +25,7 @@ export default function page() {
     <BlogList/>
     <Faq/>
     <Appdownload/>
-     <ClientLogoSlider/>
+    <ClientLogoSlider/>
     </>
   );
 }
