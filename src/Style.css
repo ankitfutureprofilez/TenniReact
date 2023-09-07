@@ -1,0 +1,12 @@
+.tennis-khelo-app-sec {
+  background-color: white; 
+
+}
+.live{
+  background-image: url("../public/image/BackLive.png");
+  margin-bottom: 10px;
+}
+
+.live h2{
+  color: white;
+}

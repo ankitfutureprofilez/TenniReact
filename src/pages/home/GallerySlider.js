@@ -12,24 +12,24 @@ function GallerySlider() {
     slidesToShow: 6,
     slidesToScroll: 1,
     arrows: false,
-		autoplay: true,
-		autoplaySpeed: 2000,
+    autoplay: true,
+    autoplaySpeed: 2000,
     responsive: [
       {
         breakpoint: 1024,
-        settings: { 
+        settings: {
           slidesToShow: 4,
         },
       },
       {
         breakpoint: 768,
-        settings: { 
+        settings: {
           slidesToShow: 3,
         },
       },
       {
         breakpoint: 480,
-        settings: { 
+        settings: {
           slidesToShow: 1,
         },
       },
@@ -115,7 +115,7 @@ function GallerySlider() {
             style={{ width: "100%", display: "inline-block" }}
           >
             <img
-              src="https://stag.tenniskhelo.com/assets/img/landing/photo-gallery-1.jpg"
+              src=":https//stag.tenniskhelo.com/assets/img/landing/photo-gallery-1.jpg"
               alt="img"
             />
           </div>

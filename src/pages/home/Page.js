@@ -10,22 +10,17 @@ import BlogList from "./BlogList";
 import Faq from "./Faq";
 import Appdownload from "./Appdownload";
 import ClientLogoSlider from "./ClientLogoSlider";
+import Live from "./Live";
 
 export default function page() {
   return (
     <>
-    <Herosec/>
-    <KheloAppMeant/>
-    <AppFeatures/>
-    <About/>
-    <Tournament/>
-    <PlayerRanking/>
-    <Find />
-    <GallerySlider/>
-    <BlogList/>
-    <Faq/>
-    <Appdownload/>
-    <ClientLogoSlider/>
+   <Herosec/>
+<KheloAppMeant/>
+<Live/>
+<GallerySlider/>
+<BlogList/>
+ 
     </>
   );
 }

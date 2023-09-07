@@ -4,7 +4,6 @@ import './Style.css'
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Page from "./pages/home/Page";
-import Player from "./player/Player"
 
 
 function App() {
