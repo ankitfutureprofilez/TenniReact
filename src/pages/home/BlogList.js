@@ -12,14 +12,14 @@ function BlogList() {
                 Explore fun and Exciting events at our tournaments and academies{" "}
               </p>
             </div>
-            <Link to="https://stag.tenniskhelo.com/coming">View All</Link>
+            
           </div>
           <div className="row">
             <div className="col-md-4">
               <div className="coming-citi">
                 <img
                   className="card-img-top"
-                  src="https://stag.tenniskhelo.com/assets/img/landing/read-1.jpg"
+                  src="\image\read.png"
                   alt="img"
                 />
                 <div className="coming-text">

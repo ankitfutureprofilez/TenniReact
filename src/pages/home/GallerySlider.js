@@ -48,10 +48,7 @@ function GallerySlider() {
             class="play-photo"
             style={{ width: "100%", display: "inline-block" }}
           >
-            <img
-              src="https://stag.tenniskhelo.com/assets/img/landing/photo-gallery-1.jpg"
-              alt="img"
-            />
+            <img src="\image\photo-gallery-1.jpg" alt="img" />
           </div>
         </div>
         <div>
@@ -59,10 +56,7 @@ function GallerySlider() {
             class="play-photo"
             style={{ width: "100%", display: "inline-block" }}
           >
-            <img
-              src="https://stag.tenniskhelo.com/assets/img/landing/photo-gallery-2.jpg"
-              alt="img"
-            />
+            <img src="\image\photo-gallery-2.jpg" alt="img" />
           </div>
         </div>
         <div>
@@ -70,10 +64,7 @@ function GallerySlider() {
             class="play-photo"
             style={{ width: "100%", display: "inline-block" }}
           >
-            <img
-              src="https://stag.tenniskhelo.com/assets/img/landing/photo-gallery-3.jpg"
-              alt="img"
-            />
+            <img src="\image\photo-gallery-3.jpg" alt="img" />
           </div>
         </div>
         <div>
@@ -81,10 +72,7 @@ function GallerySlider() {
             class="play-photo"
             style={{ width: "100%", display: "inline-block" }}
           >
-            <img
-              src="https://stag.tenniskhelo.com/assets/img/landing/photo-gallery-4.jpg"
-              alt="img"
-            />
+            <img src="\image\photo-gallery-4.jpg" alt="img" />
           </div>
         </div>
         <div>
@@ -92,10 +80,7 @@ function GallerySlider() {
             class="play-photo"
             style={{ width: "100%", display: "inline-block" }}
           >
-            <img
-              src="https://stag.tenniskhelo.com/assets/img/landing/photo-gallery-5.jpg"
-              alt="img"
-            />
+            <img src="\image\photo-gallery-5.jpg" alt="img" />
           </div>
         </div>
         <div>
@@ -103,10 +88,7 @@ function GallerySlider() {
             class="play-photo"
             style={{ width: "100%", display: "inline-block" }}
           >
-            <img
-              src="https://stag.tenniskhelo.com/assets/img/landing/photo-gallery-6.jpg"
-              alt="img"
-            />
+            <img src="\image\photo-gallery-6.jpg" alt="img" />
           </div>
         </div>
         <div>
@@ -114,10 +96,7 @@ function GallerySlider() {
             class="play-photo"
             style={{ width: "100%", display: "inline-block" }}
           >
-            <img
-              src=":https//stag.tenniskhelo.com/assets/img/landing/photo-gallery-1.jpg"
-              alt="img"
-            />
+            <img src="\image\photo-gallery.jpg" alt="img" />
           </div>
         </div>
       </Slider>
