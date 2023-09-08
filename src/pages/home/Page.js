@@ -15,17 +15,17 @@ import Live from "./Live";
 export default function page() {
   return (
     <>
-   <Herosec/>
-<KheloAppMeant/>
-<AppFeatures/>
- <Tournament/>
- <Find/>
-<Live/>
-<GallerySlider/>
-<BlogList/>
-<Appdownload/>
-<ClientLogoSlider/>
+      <Herosec />
+      <KheloAppMeant />
+      <AppFeatures />
+      <Tournament />
+      <Find />
+      <Live />
+      <GallerySlider />
+      <BlogList />
+      <Faq />
+      <Appdownload />
+      <ClientLogoSlider />
     </>
   );
 }
-

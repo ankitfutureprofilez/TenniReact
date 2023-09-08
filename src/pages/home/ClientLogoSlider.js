@@ -46,27 +46,26 @@ function ClientLogoSlider() {
     <Slider {...settings}>
     <div>
       <div style={{ width: '100%', display: 'inline-block' }} ></div>
-      <img src="https://stag.tenniskhelo.com/assets/img/landing/A.png" alt="img"/>
+      <img src="\image\A.png" alt="img"/>
     </div>
     <div>
       <div style={{ width: '100%', display: 'inline-block' }} ></div>
-      <img src="https://stag.tenniskhelo.com/assets/img/landing/A.png" alt="img"/>
+      <img src="\image\A.png" alt="img"/>
     </div>
     <div>
       <div style={{ width: '100%', display: 'inline-block' }} ></div>
-      <img src="https://stag.tenniskhelo.com/assets/img/landing/A.png" alt="img"/>
+      <img src="\image\A.png" alt="img"/>
     </div>
     <div>
       <div style={{ width: '100%', display: 'inline-block' }} ></div>
-      <img src="https://stag.tenniskhelo.com/assets/img/landing/A.png" alt="img"/>
+      <img src="\image\A.png" alt="img"/>
     </div>
     <div>
       <div style={{ width: '100%', display: 'inline-block' }} ></div>
-      <img src="https://stag.tenniskhelo.com/assets/img/landing/A.png" alt="img"/>
+      <img src="\image\A.png" alt="img"/>
     </div>
     </Slider>
       </div>
-      
 	</section>
    );
 }

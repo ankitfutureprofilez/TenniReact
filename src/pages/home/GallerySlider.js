@@ -96,7 +96,7 @@ function GallerySlider() {
             class="play-photo"
             style={{ width: "100%", display: "inline-block" }}
           >
-            <img src="\image\photo-gallery.jpg" alt="img" />
+            <img src="\image\photo-gallery-4.jpg" alt="img" />
           </div>
         </div>
       </Slider>
