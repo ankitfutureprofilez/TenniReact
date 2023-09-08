@@ -112,7 +112,7 @@ section.about-tennis-sec { padding: 50px 0; background-image: url(https://stag.t
 .about-tennis-tex h2::after { content: "About Tennis Khelo "; text-transform: uppercase; position: absolute; left: 0; letter-spacing: 7px; font-style: normal; font-weight: 600; top: 0px; z-index: -1; line-height: 89px; font-size: 51px; -webkit-text-stroke-width: 0.1px; -webkit-text-stroke-color: #008f701e; -webkit-text-fill-color: #080a0d; font-family: Impact, Charcoal, sans-serif; }
 .about-tennis-tex p { font-family: 'Oswald'; font-style: normal; font-weight: 400; font-size: 18px; line-height: 150%; color: #FFFFFF; opacity: 0.8; }
 /* tournament */
-section.tournament-sec { padding: 50px 0; }
+section.tournament-sec { padding: 50px 0;  background-image: url("../public/image/Rectangle.png");}
 .tournament-heading h2 {position: relative;width: 590px !important; font-family: 'Oswald'; font-style: normal; font-weight: 600; font-size: 30px; line-height: 120%; text-transform: uppercase; color: #FFFFFF; }
 .tournament-heading h2::after { content: "Latest Tournament  "; text-transform: uppercase; position: absolute; left: 0; letter-spacing: 2px; font-style: normal; font-weight: 600; top: -26px; z-index: -1; max-width: 553px; line-height: 89px; font-size: 51px; -webkit-text-stroke-width: 0.1px; -webkit-text-stroke-color: #008f701e; -webkit-text-fill-color: #080a0d; font-family: Impact, Charcoal, sans-serif; }
 .tournament-heading a { font-family: 'Oswald'; font-style: normal; font-weight: 600; font-size: 18px; line-height: 27px; text-transform: uppercase; color: #008F70; } 
@@ -166,7 +166,7 @@ li.fst-winner { background: #6AB8A7; box-shadow: 0px 10px 60px rgba(0, 0, 0, 0.1
 .top-player-box .fst-winner h4{color: #002D23;}
 .top-player-box .fst-winner p{color: #2E5149;}
 /* find near by academy */
-section.find-nearby-sec { text-align: center; padding: 116px 0; background-image: url(https://stag.tenniskhelo.com/assets/img/landing/nearby-bg.jpg); background-repeat: no-repeat; background-size: cover; background-position: center; }
+section.find-nearby-sec { text-align: center; padding: 116px 0; background-image: url("../public/image/Academy.png"); background-repeat: no-repeat; background-size: cover; background-position: center; }
 .nearbybox { max-width: 782px; margin: auto; }
 .nearbybox h2 {position: relative; font-family: 'Oswald'; font-style: normal; font-weight: 600; font-size: 40px; line-height: 59px; text-transform: uppercase; color: #FFFFFF; margin-bottom: 8px; }
 .nearbybox h2::after { content: "Find Nearby academy "; text-transform: uppercase; position: absolute; left: 0; right: 0; font-style: normal; font-weight: 600; top: -15px; z-index: 0; line-height: 89px; font-size: 55px; -webkit-text-stroke-width: 0.1px; -webkit-text-stroke-color: #008f701e; -webkit-text-fill-color: #080a0d00; font-family: Impact, Charcoal, sans-serif; }

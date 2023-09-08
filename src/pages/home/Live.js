@@ -21,6 +21,7 @@ function Live() {
                 </div>
                 <div className="col-md-6">
                   <img src="\image\Live.png" alt=" " />
+                  <img src ="\image\Live1.png" alt =""/>
               </div>
             </div>
           </div>
