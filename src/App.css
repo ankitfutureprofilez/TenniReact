@@ -36,7 +36,7 @@ nav.navbar.navbar-expand-lg.navbar-light { padding: 26px 0; }
 .register-login a:hover{background-color: rgba(255, 255, 255, 0); color: #008F70; border: 1px solid #008f70;}
 
 /* hero section */
-.tennis-hero-sec{background-image: url("../public/image/Herosec.png"); background-position: center; background-repeat: no-repeat;margin-top: -102px; background-size: cover; padding: 178px 0 16px;}
+.tennis-hero-sec{background-image: url("../public/image/Herosec.png"); background-position: center; background-repeat: no-repeat;margin-top: -102px; background-size: cover; padding:178px 0 16px;}
 .ultime-box h1 { font-family: 'Oswald'; font-style: normal; font-weight: 600; font-size: 44px; line-height: 65px; text-transform: uppercase; color: #FFFFFF; margin-bottom: 25px; }
 .ultime-box p { font-family: 'Oswald'; font-style: normal; font-weight: 400; font-size: 22px; line-height: 37px; text-transform: capitalize; color: #FFFFFF; }
 .app-future { margin-top: 50px; }
@@ -216,7 +216,7 @@ section.faq-sec h2::after { content: "faq "; text-transform: uppercase; position
 section.unlock-tennis-sec { padding: 200px 0 50px; position: relative; margin-top: 50px; }
 .ios-app-box h2 { font-family: 'Oswald'; font-style: normal; font-weight: 600; font-size: 40px; line-height: 59px; text-transform: uppercase; color: #FFFFFF; margin-bottom: 15px; }
 .ios-app-box p { font-family: 'Roboto'; font-style: italic; font-weight: 500; font-size: 16px; line-height: 140%; color: #FFFFFF; }
-.ios-app-box {position: relative; background: linear-gradient(100.58deg, #004C3B 0.54%, #008F70 100%); padding: 80px 0; }
+.ios-app-box {position: relative; background: linear-gradient(100.58deg,); padding: 80px 0; }
 .madmer-phone-img { position: absolute;     top: -180px; }
 .ios-app-box::after { content: " "; position: absolute; background-image: url(https://stag.tenniskhelo.com/assets/img/landing/unlock-bg.png); height: 100%; width: 100%; right: 0; top: 0; background-size: contain; background-repeat: no-repeat; }
 section.other-apps-sec { padding: 100px 0 70px; }

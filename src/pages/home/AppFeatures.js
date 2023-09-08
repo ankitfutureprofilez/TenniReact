@@ -11,18 +11,28 @@ function AppFeatures() {
 			</div>
 			<div className="functi-tabs">
 				<ul className="nav nav-tabs" id="myTab" role="tablist">
+				<li className="nav-item" role="presentation">
+						<button className="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="false">Dashboard</button>
+					</li>
 					<li className="nav-item" role="presentation">
 						<button className="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">My league </button>
 					</li>
 					<li className="nav-item" role="presentation">
-						<button className="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">State League</button>
+						<button className="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">State league </button>
 					</li>
 					<li className="nav-item" role="presentation">
-						<button className="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">List your academy</button>
+						<button className="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">List your academy</button>
 					</li>
 					<li className="nav-item" role="presentation">
-						<button className="nav-link" id="book-court-tab" data-bs-toggle="tab" data-bs-target="#book-court" type="button" role="tab" aria-controls="book-court" aria-selected="false">Book a court</button>
+						<button className="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Book a court </button>
 					</li>
+					<li className="nav-item" role="presentation">
+						<button className="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Tournament </button>
+					</li>
+					<li className="nav-item" role="presentation">
+						<button className="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Live Streaming/Score</button>
+					</li>
+					
 				</ul>
 				<div className="tab-content" id="myTabContent">
 					<div className="tab-pane fade active show" id="home" role="tabpanel" aria-labelledby="home-tab">
@@ -93,3 +103,6 @@ function AppFeatures() {
 }
 
 export default AppFeatures;
+
+
+

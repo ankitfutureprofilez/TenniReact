@@ -10,3 +10,17 @@
 .live h2{
   color: white;
 }
+
+.other-apps-sec{
+  background-color:#008F70;
+}
+
+
+.unlock-tennis-sec img{
+  width: 100%;
+  height: 100%;
+}
+
+.faq-sec{
+  background-image: url("../public/image/faq.png");
+}

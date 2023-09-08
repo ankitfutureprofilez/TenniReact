@@ -30,9 +30,7 @@ function Find() {
                 </div>
               </div>
             </div>
-            <div className="col-md-3">
-              <img src="../../" alt="img" />
-            </div>
+          
           </div>
         </div>
       </div>

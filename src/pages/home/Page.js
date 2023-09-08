@@ -17,10 +17,14 @@ export default function page() {
     <>
    <Herosec/>
 <KheloAppMeant/>
+<AppFeatures/>
+ <Tournament/>
+ <Find/>
 <Live/>
 <GallerySlider/>
 <BlogList/>
- 
+<Appdownload/>
+<ClientLogoSlider/>
     </>
   );
 }
