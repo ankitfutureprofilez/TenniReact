@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import Slider from "react-slick";
 import React from "react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -24,7 +23,7 @@ function Tournament() {
                     className="down-app"
                     to="https://stag.tenniskhelo.com/coming"
                   >
-                    Nearby Tournaments 
+                    Nearby Tournaments
                   </Link>
                 </div>
               </div>

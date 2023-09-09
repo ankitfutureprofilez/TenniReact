@@ -9,7 +9,7 @@ function Appdownload() {
           <div className="row">
             <div className="col-md-12">
               <div>
-                <img src="/image/Download-App.png" alt=""/>
+                <img src="/image/Download-App.png" alt="" />
               </div>
               <div className="download">
                 <h2>Download tennis khelo App</h2>

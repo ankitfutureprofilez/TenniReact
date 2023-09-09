@@ -7,7 +7,7 @@ function Find() {
       <div className="container">
         <div className="row">
           <div className="col-md-12">
-          
+
             <div className="col-md-6">
               <div className="nearbybox">
                 <h2>Find Nearby academy </h2>
@@ -30,7 +30,6 @@ function Find() {
                 </div>
               </div>
             </div>
-          
           </div>
         </div>
       </div>

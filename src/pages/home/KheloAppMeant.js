@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 
 function KheloAppMeant() {
   return (
@@ -22,13 +21,13 @@ function KheloAppMeant() {
               ready to hit the courts, connect with like-minded tennis
               enthusiasts, and make your mark with the tennis khelo app!
             </p>
-						<div className="ready"> <p> 	Ready to play?</p></div>
+            <div className="ready"> <p> 	Ready to play?</p></div>
           </div>
-					<div className="col-md-6">
-						<div>
-							<img src="\image\Group.png"  alt ="Tennsi Kahlo App"/>
-						</div>
-					</div>
+          <div className="col-md-6">
+            <div>
+              <img src="\image\Group.png" alt="Tennsi Kahlo App" />
+            </div>
+          </div>
         </div>
       </div>
     </section>

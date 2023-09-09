@@ -7,13 +7,13 @@ function ClientLogoSlider() {
     dots: false,
     navigation: false,
     infinite: true,
-    nav:false,
+    nav: false,
     speed: 500,
     slidesToShow: 5,
     slidesToScroll: 1,
     arrows: false,
     autoplay: true,
-		autoplaySpeed: 2000,
+    autoplaySpeed: 2000,
     responsive: [
       {
         breakpoint: 1024,
@@ -38,36 +38,36 @@ function ClientLogoSlider() {
       },
     ],
   };
-  
 
-  return ( 
+
+  return (
     <section className="other-apps-sec">
-		<div className="container">
-    <Slider {...settings}>
-    <div>
-      <div style={{ width: '100%', display: 'inline-block' }} ></div>
-      <img src="\image\A.png" alt="img"/>
-    </div>
-    <div>
-      <div style={{ width: '100%', display: 'inline-block' }} ></div>
-      <img src="\image\A.png" alt="img"/>
-    </div>
-    <div>
-      <div style={{ width: '100%', display: 'inline-block' }} ></div>
-      <img src="\image\A.png" alt="img"/>
-    </div>
-    <div>
-      <div style={{ width: '100%', display: 'inline-block' }} ></div>
-      <img src="\image\A.png" alt="img"/>
-    </div>
-    <div>
-      <div style={{ width: '100%', display: 'inline-block' }} ></div>
-      <img src="\image\A.png" alt="img"/>
-    </div>
-    </Slider>
+      <div className="container">
+        <Slider {...settings}>
+          <div>
+            <div style={{ width: '100%', display: 'inline-block' }} ></div>
+            <img src="\image\A.png" alt="img" />
+          </div>
+          <div>
+            <div style={{ width: '100%', display: 'inline-block' }} ></div>
+            <img src="\image\A.png" alt="img" />
+          </div>
+          <div>
+            <div style={{ width: '100%', display: 'inline-block' }} ></div>
+            <img src="\image\A.png" alt="img" />
+          </div>
+          <div>
+            <div style={{ width: '100%', display: 'inline-block' }} ></div>
+            <img src="\image\A.png" alt="img" />
+          </div>
+          <div>
+            <div style={{ width: '100%', display: 'inline-block' }} ></div>
+            <img src="\image\A.png" alt="img" />
+          </div>
+        </Slider>
       </div>
-	</section>
-   );
+    </section>
+  );
 }
 
 export default ClientLogoSlider;

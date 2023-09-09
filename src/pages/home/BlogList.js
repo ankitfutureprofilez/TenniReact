@@ -12,7 +12,7 @@ function BlogList() {
                 Explore fun and Exciting events at our tournaments and academies{" "}
               </p>
             </div>
-            
+
           </div>
           <div className="row">
             <div className="col-md-4">
@@ -31,7 +31,7 @@ function BlogList() {
                     Tennis khelo organized a tournament with Vivekanand academy
                     with under 14 kids who played in the tournament....
                   </p>
-                  <div class="read-whole">
+                  <div className="read-whole">
                     <Link to="https://stag.tenniskhelo.com/coming">
                       Read whole story{" "}
                     </Link>

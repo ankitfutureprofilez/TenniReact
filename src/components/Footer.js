@@ -13,93 +13,93 @@ function Footer() {
                     <h3>Corporate</h3>
                     <ul>
                       <li>
-                        <a href="https://stag.tenniskhelo.com/coming">About </a>
+                        <Link to="https://stag.tenniskhelo.com/coming">About </Link>
                       </li>
                       <li>
-                        <a href="https://stag.tenniskhelo.com/coming">Career</a>
+                        <Link to="https://stag.tenniskhelo.com/coming">Career</Link>
                       </li>
                       <li>
-                        <a href="https://stag.tenniskhelo.com/coming">
+                        <Link to="https://stag.tenniskhelo.com/coming">
                           Structure
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="https://stag.tenniskhelo.com/coming">
+                        <Link to="https://stag.tenniskhelo.com/coming">
                           Senior Leadership team
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="https://stag.tenniskhelo.com/coming">
+                        <Link to="https://stag.tenniskhelo.com/coming">
                           Board of director
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </li>
                 </ul>
               </div>
-              <div class="col-md-4">
+              <div className="col-md-4">
                 <ul>
                   <li>
                     <h3>Media </h3>
                     <ul>
                       <li>
-                        <a href="https://stag.tenniskhelo.com/coming">
+                        <Link to="https://stag.tenniskhelo.com/coming">
                           RSS Feed{" "}
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="https://stag.tenniskhelo.com/coming">
+                        <Link to="https://stag.tenniskhelo.com/coming">
                           Newsletters
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="https://stag.tenniskhelo.com/coming">
+                        <Link to="https://stag.tenniskhelo.com/coming">
                           Rankings And Info Reports
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="https://stag.tenniskhelo.com/coming">
+                        <Link to="https://stag.tenniskhelo.com/coming">
                           Media Guide
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="https://stag.tenniskhelo.com/coming">
+                        <Link to="https://stag.tenniskhelo.com/coming">
                           Challenger Media Guide{" "}
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="https://stag.tenniskhelo.com/coming">
+                        <Link to="https://stag.tenniskhelo.com/coming">
                           News Releases{" "}
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="https://stag.tenniskhelo.com/coming">
+                        <Link to="https://stag.tenniskhelo.com/coming">
                           Daily Media Notes{" "}
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </li>
                 </ul>
               </div>
-              <div class="col-md-4">
+              <div className="col-md-4">
                 <ul>
                   <li>
                     <h3>Partnerships</h3>
                     <ul>
                       <li>
-                        <a href="https://stag.tenniskhelo.com/coming">
+                        <Link to="https://stag.tenniskhelo.com/coming">
                           Partnership Opportunities
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="https://stag.tenniskhelo.com/coming">
+                        <Link to="https://stag.tenniskhelo.com/coming">
                           Official JDTA Tennis Club
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="https://stag.tenniskhelo.com/coming">
+                        <Link to="https://stag.tenniskhelo.com/coming">
                           JDTA Partner
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </li>
@@ -109,44 +109,44 @@ function Footer() {
           </div>
           <div className="col-lg-5">
             <div className="row">
-              <div class="col-md-6">
+              <div className="col-md-6">
                 <ul>
                   <li>
                     <h3>Related Links </h3>
                     <ul>
                       <li>
-                        <a href="https://stag.tenniskhelo.com/coming">
+                        <Link to="https://stag.tenniskhelo.com/coming">
                           JDTA Media
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="https://stag.tenniskhelo.com/coming">GPTCA</a>
+                        <Link to="https://stag.tenniskhelo.com/coming">GPTCA</Link>
                       </li>
                       <li>
-                        <a href="https://stag.tenniskhelo.com/coming">
+                        <Link to="https://stag.tenniskhelo.com/coming">
                           Women's Tennis Association
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="https://stag.tenniskhelo.com/coming">
+                        <Link to="https://stag.tenniskhelo.com/coming">
                           Intl. Tennis Federation
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="https://stag.tenniskhelo.com/coming">
+                        <Link to="https://stag.tenniskhelo.com/coming">
                           Intl. Tennis Hall Of Fame
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="https://stag.tenniskhelo.com/coming">
+                        <Link to="https://stag.tenniskhelo.com/coming">
                           Intl. Tennis Integrity Agency
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </li>
                 </ul>
               </div>
-              <div class="col-md-6">
+              <div className="col-md-6">
                 <ul>
                   <li>
                     <h3>Contact Info </h3>
@@ -208,7 +208,7 @@ function Footer() {
             </div>
           </div>
         </div>
-        <div class="down-footer">
+        <div className="down-footer">
           <p>© Copyright - 2022 All Rights Reserved</p>
           <p className="link">
             <Link to="https://stag.tenniskhelo.com/coming">
