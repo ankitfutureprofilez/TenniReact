@@ -2,6 +2,7 @@
 function KheloAppMeant() {
   return (
     //Tennsi Kahlo App
+    <>
     <section className="tennis-khelo-app-sec">
       <div className="container">
         <div className="row">
@@ -31,6 +32,7 @@ function KheloAppMeant() {
         </div>
       </div>
     </section>
+    </>
   );
 }
 

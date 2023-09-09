@@ -2,6 +2,8 @@ import { Link } from "react-router-dom";
 
 function PlayerRanking() {
 	return (
+		//Player Ranking 
+		<>
 		<section className="player-ranking">
 			<div className="container">
 				<div className="row align-items-center">
@@ -113,6 +115,7 @@ function PlayerRanking() {
 				</div>
 			</div>
 		</section>
+		</>
 	);
 }
 

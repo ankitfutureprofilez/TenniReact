@@ -102,8 +102,6 @@ function Player() {
 
                 </div>
             </div>
-
-
         </>
 
     );

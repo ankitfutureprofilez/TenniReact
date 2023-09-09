@@ -41,32 +41,34 @@ function ClientLogoSlider() {
 
 
   return (
-    <section className="other-apps-sec">
-      <div className="container">
-        <Slider {...settings}>
-          <div>
-            <div style={{ width: '100%', display: 'inline-block' }} ></div>
-            <img src="\image\A.png" alt="img" />
-          </div>
-          <div>
-            <div style={{ width: '100%', display: 'inline-block' }} ></div>
-            <img src="\image\A.png" alt="img" />
-          </div>
-          <div>
-            <div style={{ width: '100%', display: 'inline-block' }} ></div>
-            <img src="\image\A.png" alt="img" />
-          </div>
-          <div>
-            <div style={{ width: '100%', display: 'inline-block' }} ></div>
-            <img src="\image\A.png" alt="img" />
-          </div>
-          <div>
-            <div style={{ width: '100%', display: 'inline-block' }} ></div>
-            <img src="\image\A.png" alt="img" />
-          </div>
-        </Slider>
-      </div>
-    </section>
+    <>
+      <section className="other-apps-sec">
+        <div className="container">
+          <Slider {...settings}>
+            <div>
+              <div style={{ width: '100%', display: 'inline-block' }} ></div>
+              <img src="\image\A.png" alt="img" />
+            </div>
+            <div>
+              <div style={{ width: '100%', display: 'inline-block' }} ></div>
+              <img src="\image\A.png" alt="img" />
+            </div>
+            <div>
+              <div style={{ width: '100%', display: 'inline-block' }} ></div>
+              <img src="\image\A.png" alt="img" />
+            </div>
+            <div>
+              <div style={{ width: '100%', display: 'inline-block' }} ></div>
+              <img src="\image\A.png" alt="img" />
+            </div>
+            <div>
+              <div style={{ width: '100%', display: 'inline-block' }} ></div>
+              <img src="\image\A.png" alt="img" />
+            </div>
+          </Slider>
+        </div>
+      </section>
+    </>
   );
 }
 

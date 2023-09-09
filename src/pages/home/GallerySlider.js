@@ -36,6 +36,8 @@ function GallerySlider() {
     ],
   };
   return (
+    //Photo-gallery-section
+      <>
     <section className="photo-gallery-sec">
       <div className="container">
         <h2>Photo Gallery</h2>
@@ -101,6 +103,7 @@ function GallerySlider() {
         </div>
       </Slider>
     </section>
+    </>
   );
 }
 

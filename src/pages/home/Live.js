@@ -1,5 +1,7 @@
 function Live() {
   return (
+    //LIVE
+    <>
     <section className="live">
       <div className="container">
         <div className="row">
@@ -28,6 +30,7 @@ function Live() {
         </div>
       </div>
     </section>
+    </>
   );
 }
 

@@ -2,6 +2,8 @@ import { Link } from "react-router-dom";
 
 function Herosec() {
   return (
+    //Tennst-Hero-section
+    <>
     <section className="tennis-hero-sec">
       <div className="container">
         <div className="row align-items-center">
@@ -45,6 +47,7 @@ function Herosec() {
         </div>
       </div>
     </section>
+    </>
   );
 }
 
