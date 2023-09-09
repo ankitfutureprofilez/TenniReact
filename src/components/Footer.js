@@ -2,6 +2,8 @@ import { Link } from "react-router-dom";
 
 function Footer() {
   return (
+
+    
     <section className="footer">
       <div className="container">
         <div className="row all-footer-tag">
