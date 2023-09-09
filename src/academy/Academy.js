@@ -12,7 +12,6 @@ function Academy() {
             </div>
             <div className="academy-feature">
                 <div className="spreater"></div>
-                <div className="container">
                     <div className="">
                         <h2>App Features for Academy</h2>
                         <p>
@@ -48,7 +47,7 @@ function Academy() {
                     </div>
                     <div className="">
                         <div className="">
-                            <img src="\image\academy2.png" alt='academy ' />
+                            <img src="\image\academy3.png" alt='academy ' />
                             <img src="\image\academy1.png" alt='academy' />
                         </div>
                         <div className="">
@@ -136,7 +135,6 @@ function Academy() {
                             </div> */}
                         </div>
                     </div>
-                </div>
             </div>
         </div>
     );

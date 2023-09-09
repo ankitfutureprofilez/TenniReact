@@ -183,7 +183,7 @@ section.photo-gallery-sec { text-align: center; padding: 50px 0; }
 .photo-gallery-sec .play-photo img{width: 100%;object-fit: cover;}
 
 /* blog */
-section.latest-blog-sec { padding: 50px 0 10px; }
+section.latest-blog-sec { padding: 50px 0 10px;  background-image: ("../public/image/Blog.png"); background-repeat: no-repeat; background-size: cover; background-position: center;}
 .latest-blog-view { display: flex; justify-content: space-between; margin-bottom: 40px; }
 .latest-blog-view h2 {position: relative; font-family: 'Oswald'; font-style: normal; font-weight: 600; font-size: 30px; line-height: 120%; text-transform: uppercase; color: #FFFFFF; margin-bottom: 15px; }
 .latest-blog-view h2::after { content: "LATEST BLOG"; text-transform: uppercase; position: absolute; left: 0; right: 0; font-style: normal; font-weight: 600; top: -27px; z-index: 0; line-height: 89px; font-size: 55px; -webkit-text-stroke-width: 0.1px; -webkit-text-stroke-color: #008f701e; -webkit-text-fill-color: #080a0d00; font-family: Impact, Charcoal, sans-serif; }
