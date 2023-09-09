@@ -1,6 +1,5 @@
 import React from "react";
-// import { Link } from "react-router-dom";
-import Feature from "./Feature"
+import { Link } from "react-router-dom";
 
   function Player() {
      return(
@@ -19,9 +18,8 @@ import Feature from "./Feature"
                     <div className="container">  
                             <h2>App Features for players</h2> 
                             <p>Explore the Tennis Khelo App's Exciting Features That Transform Your Game</p>
-                           
                             <ul>
-                               <Feature/>
+                              
                             </ul>
                              
                     </div>            

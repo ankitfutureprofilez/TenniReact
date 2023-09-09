@@ -1,6 +1,6 @@
 import React from "react";
 
- function Feature( props){
+ function Feature( ){
     return(
         <>
           <li>

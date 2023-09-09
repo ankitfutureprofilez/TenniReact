@@ -1,27 +1,84 @@
 .tennis-khelo-app-sec {
-  background-color: white; 
+  background-color: white;
 
 }
-.live{
+
+.live {
   background-image: url("../public/image/BackLive.png");
   margin-bottom: 10px;
 }
 
-.live h2{
+.live h2 {
   color: white;
 }
 
-.other-apps-sec{
-  background-color:#008F70;
+.other-apps-sec {
+  background-color: #008F70;
 }
 
 
-.unlock-tennis-sec img{
+.unlock-tennis-sec img {
   width: 100%;
   height: 100%;
 }
 
-.functi-tabs{
-  background-image: url("../public/image/features.png"); 
+.functi-tabs {
+  background-image: url("../public/image/features.png");
 
 }
+
+
+
+
+
+.academy {
+  background: url("../public/image/Herosec.png");
+  background-repeat: no-repeat;
+  margin-top: -102px;
+  background-size: cover;
+  padding: 201px 0 149px;
+  border-bottom: 7px solid #4DB19B;
+}
+
+
+.academy-app-dec {
+  max-width: 675px;
+}
+
+.academy h2 {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 21px;
+  text-transform: uppercase;
+  margin: 0 0 18px;
+}
+
+.academy p {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.academy h1 {
+  color: #FFF;
+  font-family: Oswald;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 53px;
+  margin: 0 0 18px;
+}
+
+
+.academy-feature{
+  border-top: 7px solid #08564F;
+}
+
+
