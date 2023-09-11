@@ -36,15 +36,15 @@ nav.navbar.navbar-expand-lg.navbar-light { padding: 26px 0; }
 .register-login a:hover{background-color: rgba(255, 255, 255, 0); color: #008F70; border: 1px solid #008f70;}
 
 /* hero section */
-.tennis-hero-sec{background-image: url("../public/image/Herosec.png"); background-position: center; background-repeat: no-repeat;margin-top: -102px; background-size: cover; padding:178px 0 16px;}
-.ultime-box h1 { font-family: 'Oswald'; font-style: normal; font-weight: 600; font-size: 44px; line-height: 65px; text-transform: uppercase; color: #FFFFFF; margin-bottom: 25px; }
-.ultime-box p { font-family: 'Oswald'; font-style: normal; font-weight: 400; font-size: 22px; line-height: 37px; text-transform: capitalize; color: #FFFFFF; }
+.tennis-hero-sec{background-image: url("../public/image/Herosec.png"); background-position: center; background-repeat: no-repeat;margin-top: -102px; background-size: cover; padding:146px 0 75px;}
+.ultime-box h5 {font-family: Poppins; font-weight: 300; font-size: 60px; margin: 0 0 18px; color: #fff; line-height: 50px;}
+.ultime-box h1 { font-family: 'Oswald'; font-style: normal; font-weight: 500; font-size: 44px; line-height: 65px; text-transform: uppercase; color: #FFFFFF; margin-bottom: 25px; }
+.ultime-box p { font-family: 'Oswald'; font-style: normal; font-weight: 400; font-size: 16px; line-height: 37px; text-transform: capitalize; color: #FFFFFF; }
 .app-future { margin-top: 50px; }
 .app-future a.down-app { background: #008F70; font-family: 'Oswald';border: 1px solid #008F70; font-style: normal; font-weight: 600; font-size: 18px; line-height: 27px; padding:16px 40px; border: 1px solid #008f70; text-transform: uppercase; color: #FFFFFF; margin-right: 40px;}
 .app-future a.down-app:hover{background: #ffffff; color: #008f70;}
 .app-future a.view-app{ font-family: 'Oswald'; font-style: normal; font-weight: 600; font-size: 18px; line-height: 27px; padding: 16px 40px; text-transform: uppercase; color: #008F70; border: 1px solid #008F70;  }
 .app-future a.view-app:hover{background-color: #008F70; color: #fff;}
-.hero-right-box img { width: 100%; }
 .read-whole a:hover{color: #04644f;}
 .pro-player { position: relative; width: 100%; } 
 .pro-player .image { display: block; width: 100%; height: auto; } 
@@ -256,8 +256,8 @@ h3.our-socials-text { margin-top: 25px; }
 
 /*Responsive*/
 @media (min-width:1399px){
-    .ultime-box h1 { font-size: 48px; line-height: 71px;  margin-bottom: 30px; }
-    .ultime-box p { font-size: 25px;}
+    .ultime-box h1 { font-size: 60px; line-height: 55px;  margin-bottom: 20px; }
+    .ultime-box p { font-size: 18px;}
     .app-future a.down-app { padding: 15px 40px; }
     .app-future a.view-app{  padding: 15px 40px; }
     .register-login a { font-size: 18px; padding: 15px 40px; }

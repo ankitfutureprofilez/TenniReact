@@ -71,7 +71,7 @@ function Header() {
                     <button className="btn btn-primary my-2 my-sm-0 mx-2">
                       Login
                     </button> */}
-                    <Link href="./">Register/Login</Link>
+                    {/* <Link href="./">Register/Login</Link> */}
                   </div>
                   </div>
                   
