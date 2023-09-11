@@ -5,8 +5,8 @@ import React from "react";
         <>
           <li>
              <div className="card-img">
-                 <img src="{court-img}" alt="img" />
-                 <h2>{props.title}</h2>
+                 <img src="" alt="img" />
+                 <h2></h2>
              </div>
           </li>
         </>
