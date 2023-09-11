@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Page from "./pages/home/Page";
 import Player from "./player/Player";
+
 import Academy from "./academy/Academy";
 import ClientLogoSlider from "./pages/home/ClientLogoSlider";
 
